@@ -196,7 +196,7 @@ for i = 1:nCases
                 alpha_L0_thin_deg(i));
     else
         set(h_hat(i), 'DisplayName', sprintf('Profile at %.0f degree', 5*i));
-        fprintf('alpha_L0 for image at %.0f degree = %.3f [deg]\n', angle_i, alpha_L0_thin_deg(i));
+        fprintf('alpha_L0 for image at %.0f degree = %.3f [deg]\n', 5*i, alpha_L0_thin_deg(i));
     end
 end
 
